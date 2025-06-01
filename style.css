@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f4f4f4;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+.hidden {
+  display: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+li {
+  padding: 8px;
+  margin-bottom: 4px;
+  border: 1px solid #ccc;
+}
+li:hover {
+  background-color: #efefef;
+  cursor: pointer;
+}
