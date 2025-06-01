@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NFL Draft Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>NFL Draft Day Simulator</h1>
+
+    <div id="team-selection">
+      <h2>Select Your Team</h2>
+      <select id="teamDropdown"></select>
+      <button onclick="startDraft()">Start Draft</button>
+    </div>
+
+    <div id="draft-section" class="hidden">
+      <h2>Draft Board</h2>
+      <div id="draft-board"></div>
+      <div id="player-picker" class="hidden">
+        <h3>Your Pick! Choose a Player:</h3>
+        <ul id="available-players"></ul>
+      </div>
+    </div>
+
+    <div id="draft-results" class="hidden">
+      <h2>Draft Results</h2>
+      <p id="final-grade"></p>
+      <button onclick="location.reload()">Start Over</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
